@@ -48,6 +48,7 @@ jobs:
         run: rm -rf ~/.ssh
 
   Autograding:
+    needs: deploy
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
