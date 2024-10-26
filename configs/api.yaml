@@ -1,0 +1,10 @@
+# Server
+PORT: 8080
+
+# Postgres
+PG_HOST: db
+PG_PORT: 5432
+PG_DB: persons_db
+PG_USER: moderator
+PG_PASSWORD: 2222
+PG_SSL_MODE: disable
