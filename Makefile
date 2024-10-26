@@ -17,7 +17,6 @@ down:
 	
 .PHONY: deploy
 deploy:
-	git pull
 	make stop
 	make up
 
